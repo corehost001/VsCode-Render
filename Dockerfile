@@ -1,6 +1,6 @@
 # Use an official Ubuntu runtime as a parent image
 FROM ubuntu:latest
-
+USER wcore
 # Set the working directory to /app
 WORKDIR /app
 
